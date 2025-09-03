@@ -1,7 +1,18 @@
 🚀 Katalon Studio – API Test Automation (REST + SOAP)
 
-Framework d’automatisation complet avec Katalon Studio dédié aux tests API.
-Inclut REST API Testing + SOAP API Testing, tests paramétrés (Data-Driven), intégration CI/CD et rapports avancés.
+
+
+
+
+
+
+
+
+
+
+
+Framework d’automatisation complet avec Katalon Studio
+Inclut REST API Testing + SOAP API Testing, exécutions Data-Driven, intégration CI/CD et rapports avancés.
 
 📋 Table des matières
 
@@ -11,7 +22,7 @@ Inclut REST API Testing + SOAP API Testing, tests paramétrés (Data-Driven), in
 
 📂 Structure du projet
 
-✅ Cas de test & scénarios couverts
+✅ Scénarios testés
 
 📊 Rapports & Intégration
 
@@ -21,44 +32,47 @@ Inclut REST API Testing + SOAP API Testing, tests paramétrés (Data-Driven), in
 
 📄 Licence
 
-🔗 Contact
+🔗 Contact & LinkedIn
 
 📂 Structure du projet
 ├── Test Cases/                 # Cas de test API (REST + SOAP)
 ├── Test Suites/                # Groupes de tests organisés
-├── Data Files/                 # Données (CSV/Excel) pour Data-Driven
-├── Object Repository/          # Objets REST & SOAP (endpoints, services…)
-├── Include/                    # Configs et utilitaires
+├── Data Files/                 # Données de test (CSV/Excel)
+├── Object Repository/          # Endpoints REST + Services SOAP
 ├── Profiles/                   # Variables globales
+├── Include/                    # Configurations utilitaires
 ├── Reports/                    # Rapports générés
-├── Jenkinsfile                 # Pipeline CI/CD (optionnel)
-└── README.md                   # Documentation
+├── Jenkinsfile                 # Pipeline CI/CD
+└── README.md                   # Documentation du projet
 
-✅ Cas de test & scénarios couverts
-Type	Description
-REST API	Authentification (Basic, Bearer, OAuth), CRUD Users, Employees API
-SOAP API	Services Pays (capitale, monnaie, langues, infos complètes) + SOAP Demo
-Data-Driven	Exécution des mêmes tests via CSV/Excel
-Vérifications	Status codes, response body JSON/XML, schémas et données dynamiques
-Chaînage	Réutilisation de la réponse d’un appel comme input pour un autre
+✅ Scénarios testés
+Module/API	Description
+REST Auth	Authentification (Basic, Bearer, OAuth)
+REST CRUD	Création / Lecture / Mise à jour / Suppression (Users)
+SOAP Demo	AddInteger, FindPerson, LookupCity, QueryByName…
+SOAP Pays	CapitalCity, Currency, CountryInfo, Langues, Drapeaux
+Data-Driven	Exécution paramétrée via CSV/Excel
+Chaining	Réutilisation de réponses JSON/XML dans d’autres tests
 📊 Rapports & Intégration
 
-📑 Rapports HTML / JUnit / CSV générés automatiquement
+📑 Rapports JUnit / HTML / CSV / PDF
 
-📈 Intégration avec Katalon TestOps pour dashboards & analytics
+📈 Katalon TestOps pour dashboards & analytics
 
-📸 Screenshots/logs en cas d’échec
+📸 Logs & screenshots en cas d’échec
 
-🔍 Compatible avec Allure Report
+🔍 Intégration possible avec Allure Report
 
 🔄 CI/CD intégré
-GitHub Actions
+✅ GitHub Actions
 
-Exécution des suites en pipeline
+Exécution des suites REST & SOAP en pipeline
 
 Génération & upload des rapports
 
-Jenkins
+Fichier : .github/workflows/katalon.yml
+
+✅ Jenkins
 
 Pipeline CI/CD avec Jenkinsfile
 
@@ -74,12 +88,12 @@ Archivage logs/screenshots
 
 📄 Licence
 
-Projet sous licence MIT – voir LICENSE
-.
+Projet sous licence MIT.
+Voir LICENSE
+ pour plus de détails.
 
-🔗 Contact
+🔗 Contact & LinkedIn
 
 👤 Abdelhakim SAHRAOUI
-📧 hakim.sahraoui.de@gmail.com
 
-🔗 LinkedIn
+📧 hakim.sahraoui.de@gmail.com
