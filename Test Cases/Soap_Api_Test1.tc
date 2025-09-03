@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Soap_Api_Test1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83a425ee-9b08-4641-a167-c2ca7313c7a1</testCaseGuid>
+</TestCaseEntity>

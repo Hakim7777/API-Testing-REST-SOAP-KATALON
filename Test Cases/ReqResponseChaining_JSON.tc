@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReqResponseChaining_JSON</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b13a1ee5-67be-44e0-95dd-c75a18c9532e</testCaseGuid>
+</TestCaseEntity>

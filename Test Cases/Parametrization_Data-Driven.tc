@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Parametrization_Data-Driven</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4851ec5a-b7eb-4ea0-a249-d7f93cf43e9c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3224b0a2-14f5-49ee-b42c-496132c1ff77</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestDataONE</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bd3e4c9-8654-4290-a94c-7977592f5903</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>352aadd0-3cfa-407b-ba0c-469554a40ed8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Morocco'</defaultValue>
+      <description></description>
+      <id>9bd3e4c9-8654-4290-a94c-7977592f5903</id>
+      <masked>false</masked>
+      <name>CountryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'MA'</defaultValue>
+      <description></description>
+      <id>352aadd0-3cfa-407b-ba0c-469554a40ed8</id>
+      <masked>false</masked>
+      <name>CountryCode</name>
+   </variable>
+</TestCaseEntity>
